@@ -13,11 +13,11 @@ body{background-color: hsl(47, 88%, 63%);}
 }
 .card{background-color: hsl(0, 0%, 100%);
     border: solid hsl(0, 0%, 7%) 1px;
-    border-radius: 8%;
+    border-radius: 5%;
     height: auto;
     max-width: 369px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -25,6 +25,11 @@ body{background-color: hsl(47, 88%, 63%);}
     padding-right: 2%;
 }
 .svg svg{border-radius: 5%;}
+
+.photo{display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
 
 
 
