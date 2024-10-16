@@ -1,16 +1,30 @@
+@font-face{font-family: Figtree-ExtraBold;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);}
+@font-face{    font-family:Figtree-SemiBold;
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);}
+@font-face{    font-family:Figtree-Italic;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);}
+@font-face{    font-family:Figtree-Var ;
+    src:url(assets/fonts/Figtree-VariableFont_wght.ttf) ;}
+
 *{box-sizing: border-box;}
+
 body{background-color: hsl(47, 88%, 63%);}
+
 .attribution {font-size: 11px; 
     text-align: center;
 }
+
 .attribution a {color: hsl(228, 45%, 44%);
     text-decoration: none;
 }
+
 .container{display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: aqua;
 }
+
 .card{background-color: hsl(0, 0%, 100%);
     border: solid hsl(0, 0%, 7%) 1px;
     border-radius: 5%;
@@ -19,21 +33,35 @@ body{background-color: hsl(47, 88%, 63%);}
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 2%;
     padding-right: 2%;
+    box-shadow: 6px 6px hsl(0, 0%, 7%);
 }
-.svg svg{border-radius: 5%;}
+
+.svg svg{border-radius: 5%;
+}
 
 .photo{display: flex;
     flex-direction: row;
     justify-content: start;
+    position: relative;
+    right: 87px;
 }
 
-
+.photo h5{position: relative;
+    right: -24%;
+    bottom: -7%;
+}
 
 .divisor{height: 30px;
     width: auto;
     background-color: rgba(0, 0, 0, 0);
 }
+
+.ebold{font-family: Figtree-ExtraBold;}
+.sbold{font-family: Figtree-SemiBold;}
+.ivar{font-family: Figtree-Italic;}
+.var{font-family: Figtree-Var;}
